@@ -1,1 +1,73 @@
 /*  your css code here. If applicable */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+body{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bcontainer{
+  border: 3px solid black;
+   width: 90%;
+   height: 85vh;
+   border-radius: 8px;
+}
+.digitcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 60px;
+}
+input[type="number"]{
+    width:12% ;
+    height: 140px;
+    font-weight: 100;
+}
+input{
+    font-size: 3rem;
+    text-align: center;
+    color: gray;
+}
+
+    h3{
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .scontainer{
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    h5{
+        color:gray;
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    p {  width: 55%;
+        display: flex;
+        font-size: 20px;
+        align-items: center;
+        justify-content: center;
+       
+       padding: 8px;
+        margin-bottom: 0px;
+        background-color: rgba(107, 114, 111, 0.147);
+
+    }
+    .smalltext{
+        padding-top: 0px ;
+        margin-top: 0px;
+    }
+   
